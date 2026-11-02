@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Basha Khoj — Find your place. Feel at home.</title>
+<meta name="description" content="Find verified rentals across Bangladesh. Search apartments, rooms, hostels, villas and commercial spaces with Basha Khoj.">
+<meta name="theme-color" content="#0E5A4A">
+<meta property="og:title" content="Basha Khoj — Find your place. Feel at home.">
+<meta property="og:description" content="Verified rentals across Bangladesh, with direct owner contact and zero service fees.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="/">
+<meta property="og:image" content="assets/images/og-home.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Basha Khoj","url":"/","potentialAction":{"@type":"SearchAction","target":"/rentals.html?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="Basha Khoj home"><span class="brand-mark">BK</span><span class="brand-copy"><span>Basha <b>Khoj</b></span><small>Find your place. Feel at home.</small></span></a>
+    <nav class="desktop-nav" aria-label="Primary">
+      <a href="rentals.html">Find a Place</a><a href="locations.html">Explore</a><a href="blog.html">Guides</a><a href="about.html">About</a>
+    </nav>
+    <div class="nav-actions"><a class="header-search" href="rentals.html" aria-label="Search rentals"><span>⌕</span><span>Search</span></a><a class="text-link" href="list-property.html">List Your Property</a><a class="btn btn-dark btn-small" href="account.html">Sign in</a><button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false">☰</button></div>
+  </div>
+</header>
+<main id="main">
+<section class="hero hero-slider" id="heroSlider"><div class="hero-slides" aria-hidden="true"></div><div class="hero-slide-caption" aria-live="polite"></div>
+  <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy reveal">
+      <div class="eyebrow"><span class="status-dot"></span> Bangladesh's trusted rental marketplace</div>
+      <h1>Find your place.<br><em>Feel at home.</em></h1>
+      <p>Verified spaces, direct connections and zero service fees — built around the way Bangladesh lives.</p>
+      <div class="trust-row"><span>✓ Verified listings</span><span>✓ Direct owners</span><span>✓ No service fees</span></div>
+    </div>
+    <div class="search-card reveal delay-1" aria-label="Property search">
+      <div class="search-card-top"><span>Find a place</span><span class="search-badge">100% verified*</span></div>
+      <form id="homeSearch" class="search-form">
+        <label>Division<select name="division" data-geo-division><option value="">Any division</option></select></label><label>District<select name="district" data-geo-district disabled><option value="">Choose district</option></select></label><label>Upazila<select name="upazila" data-geo-upazila disabled><option value="">Choose upazila</option></select></label>
+        <label>I'm looking for<select name="type"><option value="">Any property</option><option>Apartment</option><option>Room</option><option>Hostel</option><option>Villa</option><option>Commercial</option></select></label>
+        <div class="two-fields"><label>Minimum rent<input name="minPrice" type="number" min="0" max="50000000" step="1000" placeholder="৳0"></label><label>Maximum rent<input name="maxPrice" type="number" min="0" max="50000000" step="1000" placeholder="৳5 crore"></label></div><label>Stay<select name="stay"><option value="">Any stay</option><option>Long-term</option><option>Short-term</option></select></label>
+        <button class="btn btn-primary btn-wide" type="submit">Search rentals <span>→</span></button>
+      </form>
+      <p class="microcopy">*Verification status is shown on eligible listings and reflects Basha Khoj’s verification process.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container">
+    <div class="section-head"><div><div class="eyebrow">Explore</div><h2>Start with what matters to you.</h2></div><a class="arrow-link" href="property-types.html">View all →</a></div>
+    <div class="category-grid">
+      <a class="category-card cat-student" href="students.html"><span>01</span><strong>Student life</strong><small>Rooms · hostels · co-living</small><b>→</b></a>
+      <a class="category-card cat-pro" href="professionals.html"><span>02</span><strong>City living</strong><small>Apartments · rooms · studios</small><b>→</b></a>
+      <a class="category-card cat-family" href="families.html"><span>03</span><strong>Family homes</strong><small>Comfortable long-term spaces</small><b>→</b></a>
+      <a class="category-card cat-travel" href="travel.html"><span>04</span><strong>Getaways</strong><small>Villas · short stays · escapes</small><b>→</b></a>
+    </div>
+  </div>
+</section>
+
+<section class="section featured">
+  <div class="container">
+    <div class="section-head"><div><div class="eyebrow">Curated for you</div><h2>Spaces worth coming home to.</h2></div><a class="arrow-link" href="rentals.html">Explore rentals →</a></div>
+    <div id="featuredGrid" class="property-grid"></div>
+  </div>
+</section>
+
+<section class="section split-story">
+  <div class="container split-grid">
+    <div class="story-panel reveal"><div class="eyebrow">Why Basha Khoj</div><h2>A better way to rent in Bangladesh.</h2><p>Finding a home should not feel like detective work. We bring verified spaces, clear information and direct owner connections into one calm, modern experience.</p><a class="btn btn-light" href="trust.html">How verification works →</a></div>
+    <div class="story-list">
+      <article><span>01</span><div><h3>See the real picture</h3><p>Clear property information, useful amenities and honest presentation.</p></div></article>
+      <article><span>02</span><div><h3>Talk to the right person</h3><p>Connect directly with owners instead of navigating unnecessary middlemen.</p></div></article>
+      <article><span>03</span><div><h3>Move with confidence</h3><p>A simple journey from search to conversation to booking.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section locations-section">
+  <div class="container">
+    <div class="section-head"><div><div class="eyebrow">Where are you going?</div><h2>Explore Bangladesh by place.</h2></div><a class="arrow-link" href="locations.html">All locations →</a></div>
+    <div class="location-grid">
+      <a href="rentals.html?location=Dhaka" class="location-card large"><div><small>Capital living</small><h3>Dhaka</h3><span>Explore rentals →</span></div></a>
+      <a href="rentals.html?location=Chattogram" class="location-card"><div><small>Port city</small><h3>Chattogram</h3><span>Explore →</span></div></a>
+      <a href="rentals.html?location=Sylhet" class="location-card"><div><small>Green escapes</small><h3>Sylhet</h3><span>Explore →</span></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="owner-cta">
+  <div class="container owner-inner">
+    <div><div class="eyebrow">For property owners</div><h2>Your space deserves the right people.</h2><p>List your property, reach serious renters and keep the conversation direct.</p></div>
+    <a class="btn btn-light" href="list-property.html">List your property →</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><div><div class="eyebrow">From the journal</div><h2>Useful things to know before you move.</h2></div><a class="arrow-link" href="blog.html">Read all guides →</a></div>
+    <div id="homePosts" class="post-grid"></div>
+  </div>
+</section>
+</main>
+<footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark">BK</span><span class="brand-copy"><span>Basha <b>Khoj</b></span><small>Find your place. Feel at home.</small></span></a><p>Find your place. Feel at home.</p></div><div><h4>Discover</h4><a href="rentals.html">Rentals</a><a href="locations.html">Locations</a><a href="property-types.html">Property types</a><a href="blog.html">Guides</a></div><div><h4>For owners</h4><a href="list-property.html">List a property</a><a href="how-it-works.html">How it works</a><a href="trust.html">Verification</a></div><div><h4>Company</h4><a href="about.html">About</a><a href="contact.html">Contact</a><a href="faq.html">FAQ</a><a href="privacy.html">Privacy</a></div></div><div class="container footer-bottom"><span>© 2026 Basha Khoj</span><span>Built for Bangladesh.</span></div></footer>
+<script src="js/properties.js"></script><script src="js/blogData.js"></script><script src="js/bangladeshGeo.js"></script><script src="js/app.js"></script>
+</body></html>

@@ -1,0 +1,3 @@
+window.portfolioData=[
+{id:"story-01",slug:"basha-khoj-marketplace",title:"Basha Khoj Marketplace",client:"Basha Khoj",category:"Digital platform",shortDescription:"A trust-first rental marketplace experience for Bangladesh.",fullDescription:"A modular marketplace system designed around search, verification, direct communication and conversion.",services:["UX/UI","Frontend","SEO"],technologies:["HTML5","CSS3","ES6"],completionDate:"2026",featuredImage:"assets/images/placeholder-project.svg",galleryImages:["assets/images/placeholder-project.svg"],websiteUrl:""}
+];
